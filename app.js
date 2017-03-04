@@ -2,7 +2,7 @@ var http = require('http');
 var exec = require('child_process').exec;
 console.log("################################");
 const PORT = 7001
-  , PATH = '/usr/jenkins/workspace/test'
+  , PATH = '/usr/jenkins/workspace/gg_test'
 
 var deployServer = http.createServer(function(request, response) {
   if (request.url.search(/deploy/i) > 0) {
